@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KrKrSceneManager\KrKrSceneManager.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\OpenFile.png" />
+    <Resource Include="Assets\Close.png" />
+    <Resource Include="Assets\FindInFile.png" />
+    <Resource Include="Assets\Save.png" />
+  </ItemGroup>
+</Project>
